@@ -6,8 +6,8 @@ app.get('/', function(request, response) {
   response.send('Hello World 2!');
 });
 
-fs.readFile(index.html);
-buffer.toString('utf-8');
+//fs.readFile(index.html);
+//buffer.toString('utf-8');
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
