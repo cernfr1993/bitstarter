@@ -1,3 +1,0 @@
-line1\line2
-add one more line to the txt file.
-and another one line is added.
