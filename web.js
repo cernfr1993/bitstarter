@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
 var buffer = new Buffer("Hello Word from index.html",25);
 
 fs.readFileSync("index.html","utf-8");
-console.log(buf.toString());
+console.log(buffer.toString());
 response.send(resultOfreadFileSync);
 });
 
